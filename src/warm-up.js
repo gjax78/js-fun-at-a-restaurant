@@ -15,12 +15,12 @@ var inStock = 10
 
 // Reassign (not initialize) your "inStock" variable from above. We got a new shipment! Use a built in math operator to make
 // the inStock count double what it currently is.
-inStock = inStock*2;
+inStock*=2;
 //console.log(inStock);
 
 // Reassign (not initialize) your "inStock" variable from above. You got hungry and needed a snack!
 // Use a built in math operator to decrement the inStock count by 1.
-inStock = inStock-1;
+inStock-=1;
 //console.log(inStock);
 
 // Initialize a new variable "isFavorite", and assign it to a boolean value indicating
@@ -33,9 +33,9 @@ var isFavorite = false;
 // comparison operator.
 var shouldOrderMore = true;
   if (inStock < 20) {
-    console.log("true")
+    console.log(true)
   } else {
-    console.log("false")
+    console.log(false)
   }
 
 
@@ -47,7 +47,7 @@ var shouldOrderMore = true;
   if (inStock >= 1) {
     console.log(`I'm going to eat some ${food}!`)
   } else {
-    console.log(`We need to get some more ${food}!`)
+    console.log(`We need to get some more ${food}.`)
   }
 
 // Express the following in code: If the variable "isFavorite" is true,
@@ -94,4 +94,4 @@ var groceryStore = {
 // Write the code to add the key of location, with the value of 'Denver, Colorado'. Use dot
 // notation to do this. DO NOT modify your code from above.
 groceryStore.location = "Denver, Colorado"
-console.log(groceryStore);
+//console.log(groceryStore);
